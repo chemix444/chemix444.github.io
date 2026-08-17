@@ -1,0 +1,82 @@
+{
+  "_comment": "The only file to edit by hand. build.py reads it, then pulls everything else from the GitHub API. A new repository appears automatically under `default_kind` — give it a kind here to file it properly, and a blurb if GitHub's description is too long for the table.",
+
+  "user": "chemix444",
+  "default_kind": "MISC",
+
+  "exclude": ["chemix444", "chemix444.github.io"],
+
+  "featured": [
+    "DeckTok",
+    "blockfall",
+    "xcloudwrapper",
+    "steamdeck-waydroid-setup",
+    "sandbox3d",
+    "passwordgameautoplay"
+  ],
+
+  "kinds": {
+    "DeckTok": "DECK",
+    "steamdeck-waydroid-setup": "DECK",
+    "python-autoclicker": "DECK",
+
+    "xcloudwrapper": "APP",
+    "izzytok": "APP",
+    "TIMECLOCK": "APP",
+    "discord-bot": "APP",
+    "discord-username-scraper": "APP",
+    "whatever": "APP",
+
+    "blockfall": "GAME",
+    "sandbox3d": "GAME",
+    "sandbox": "GAME",
+    "hyphae-game": "GAME",
+    "sam-is-online": "GAME",
+    "ballbattles": "GAME",
+    "hydro": "GAME",
+    "everyfile.sys": "GAME",
+    "random-archive": "GAME",
+
+    "passwordgameautoplay": "SCRIPT",
+    "cookieclickerautoplay": "SCRIPT",
+
+    "aura": "SITE",
+    "site": "SITE",
+    "site2": "SITE",
+    "fnbots": "SITE",
+
+    "neetcode-submissions": "MISC",
+    "cdn": "MISC",
+    "moicdn": "MISC"
+  },
+
+  "blurbs": {
+    "DeckTok": "Controller-first TikTok client for the Steam Deck — TikTok's web client in a gamepad-driven Electron shell.",
+    "steamdeck-waydroid-setup": "Reproducing a working Waydroid (Android 13) install on SteamOS: AUR build, GAPPS, ARM translation, Widevine, Play certification.",
+    "python-autoclicker": "Lightweight autoclicker with a GUI — configurable interval, toggle hotkey, left/right click. Built for Linux and SteamOS.",
+    "xcloudwrapper": "Xbox Cloud Gaming as a native macOS app. Hardened Electron window, no telemetry, universal binary.",
+    "izzytok": "A custom TikTok frontend that shows one creator and nothing else.",
+    "TIMECLOCK": "Minimal browser time clock for tracking hours and calculating pay at a fixed rate.",
+    "discord-bot": "Greed-inspired open source all-purpose Discord bot.",
+    "discord-username-scraper": "Username generator and availability checker against Discord's public API.",
+    "whatever": "A tiny terminal typing-speed test. Nothing beyond the Python standard library.",
+    "blockfall": "Single-file 3D wave shooter in Three.js — 11 biomes, 9 weapons, multi-phase bosses, sandbox mode.",
+    "sandbox3d": "Physics sandbox with 40+ spawnable objects, built on Three.js and cannon-es.",
+    "sandbox": "A Three.js sandbox game in the spirit of Garry's Mod.",
+    "hyphae-game": "A dark, fungal idle game — grow a mycelium network across an abandoned city.",
+    "sam-is-online": "A short narrative chat game in the spirit of Emily Is Away. Plain HTML, CSS and JS.",
+    "ballbattles": "Two ball 'battlers' fight in a zero-gravity arena. 9:16 layout, ability registry, synth sound.",
+    "hydro": "Browser gaming site with 500+ instant-play games — no downloads, no sign-ups.",
+    "everyfile.sys": "Recreation of PortalRunner's “flash drive with literally every file” video, in HTML.",
+    "random-archive": "Press the button, get a random thing out of archive.org.",
+    "passwordgameautoplay": "Userscript that plays neal.fun's The Password Game by itself, rule 1 to the win screen.",
+    "cookieclickerautoplay": "Cookie Clicker autopilot that only does what a human could, aiming at 100% achievements.",
+    "aura": "One-page site for Aura Club and Conventions, a nightlife venue in Naperville, Illinois.",
+    "site": "One-page site for Mall of India, Naperville, Illinois.",
+    "site2": "The Mall of India site with its images bundled in the repository.",
+    "fnbots": "Static one-page list of 30 Fortnite bot account names.",
+    "neetcode-submissions": "My NeetCode.io problem submissions.",
+    "cdn": "Image and GIF assets used by my other sites.",
+    "moicdn": "Image assets for the Mall of India site."
+  }
+}

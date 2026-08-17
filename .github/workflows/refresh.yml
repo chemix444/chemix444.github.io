@@ -1,0 +1,52 @@
+name: Refresh index
+
+# Rebuilds index.html from the GitHub API so the site tracks the account
+# without anyone touching it. Runs on a two-hour cron, on demand from the
+# Actions tab, and whenever the generator or its curation file changes.
+
+on:
+  schedule:
+    # :17 rather than :00 — GitHub's scheduler is busiest on the hour, and
+    # runs queued then are the ones that get dropped.
+    - cron: "17 */2 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - build.py
+      - curation.json
+      - .github/workflows/refresh.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-index
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Rebuild index.html
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 build.py
+
+      - name: Commit if anything changed
+        run: |
+          if [ -z "$(git status --porcelain index.html)" ]; then
+            echo "Nothing changed — no commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Refresh index from GitHub"
+          git push
