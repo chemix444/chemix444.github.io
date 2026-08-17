@@ -1,0 +1,1089 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="chemix444 — Steam Deck tools, browser games and userscripts. An index of 27 repositories, 15 of which run in a browser.">
+<meta name="color-scheme" content="dark light">
+<meta property="og:title" content="chemix444 Index">
+<meta property="og:description" content="Steam Deck tools, browser games and userscripts. 27 repositories, 15 of them playable in a tab.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><rect width=%2216%22 height=%2216%22 fill=%22%2316181c%22/><rect x=%223%22 y=%2211%22 width=%2210%22 height=%222%22 rx=%221%22 fill=%22%23ff3d71%22/></svg>">
+<title>chemix444 Index</title>
+</head>
+<body>
+
+<style>
+@font-face {
+  font-family: "FiraSub";
+  src: url(data:font/woff;base64,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) format("woff");
+  font-weight: 400; font-style: normal; font-display: block;
+}
+@font-face {
+  font-family: "FiraSub";
+  src: url(data:font/woff;base64,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) format("woff");
+  font-weight: 500; font-style: normal; font-display: block;
+}
+
+/* ── tokens ───────────────────────────────────────────────────────────────
+   Dark-first by design: the bare :root is the dark palette, light is the
+   override. Both stamped states and the un-stamped system state resolve. */
+:root {
+  --ground:   #16181c;
+  --panel:    #1d2026;
+  --raised:   #23272e;
+  --ink:      #e7e9ec;
+  --muted:    #8d8b93;
+  --faint:    #63626a;
+  --line:     rgba(231, 233, 236, 0.11);
+  --line-hi:  rgba(231, 233, 236, 0.22);
+  --accent:   #ff3d71;
+  --accent-q: rgba(255, 61, 113, 0.13);
+  --shadow:   0 1px 0 rgba(255,255,255,0.03) inset;
+  --run-ink:  #16181c;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --ground:   #eff0f2;
+    --panel:    #ffffff;
+    --raised:   #f6f6f8;
+    --ink:      #15181c;
+    --muted:    #63616a;
+    --faint:    #8a8891;
+    --line:     rgba(21, 24, 28, 0.13);
+    --line-hi:  rgba(21, 24, 28, 0.26);
+    --accent:   #c81e56;
+    --accent-q: rgba(200, 30, 86, 0.09);
+    --shadow:   0 1px 2px rgba(21,24,28,0.05);
+    --run-ink:  #ffffff;
+    color-scheme: light;
+  }
+}
+:root[data-theme="light"] {
+  --ground:   #eff0f2;
+  --panel:    #ffffff;
+  --raised:   #f6f6f8;
+  --ink:      #15181c;
+  --muted:    #63616a;
+  --faint:    #8a8891;
+  --line:     rgba(21, 24, 28, 0.13);
+  --line-hi:  rgba(21, 24, 28, 0.26);
+  --accent:   #c81e56;
+  --accent-q: rgba(200, 30, 86, 0.09);
+  --shadow:   0 1px 2px rgba(21,24,28,0.05);
+  --run-ink:  #ffffff;
+  color-scheme: light;
+}
+
+/* ── base ──────────────────────────────────────────────────────────────── */
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+               "Noto Sans", "Liberation Sans", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.62;
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: 84px;
+}
+
+.mono {
+  font-family: "FiraSub", ui-monospace, "DejaVu Sans Mono", "Liberation Mono",
+               Menlo, Consolas, monospace;
+}
+
+a { color: inherit; }
+
+.wrap { max-width: 1120px; margin: 0 auto; padding: 0 28px; }
+
+.skip {
+  position: absolute; left: -9999px;
+  background: var(--accent); color: var(--run-ink);
+  padding: 10px 16px; z-index: 60;
+}
+.skip:focus { left: 12px; top: 12px; }
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* ── masthead ──────────────────────────────────────────────────────────── */
+.masthead { padding: clamp(48px, 9vw, 104px) 0 clamp(36px, 5vw, 60px); }
+
+.eyebrow {
+  font-family: "FiraSub", ui-monospace, monospace;
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--faint);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 26px;
+}
+.eyebrow::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--line);
+}
+
+.wordmark {
+  font-family: "FiraSub", ui-monospace, monospace;
+  font-weight: 500;
+  font-size: clamp(40px, 8.4vw, 92px);
+  line-height: 1;
+  letter-spacing: -0.045em;
+  margin: 0;
+}
+.wordmark .caret {
+  color: var(--accent);
+  margin-left: 0.06em;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .wordmark .caret { animation: blink 1.25s steps(2, start) infinite; }
+}
+@keyframes blink { 50% { opacity: 0; } }
+
+.tagline {
+  font-size: clamp(19px, 2.4vw, 25px);
+  line-height: 1.42;
+  max-width: 22ch;
+  margin: 28px 0 0;
+  text-wrap: balance;
+  letter-spacing: -0.012em;
+}
+
+.standfirst {
+  margin: 22px 0 0;
+  max-width: 62ch;
+  color: var(--muted);
+  font-size: 16.5px;
+}
+.standfirst strong { color: var(--ink); font-weight: 600; }
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  margin-top: 40px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.stat {
+  flex: 1 1 150px;
+  padding: 18px 22px 16px 0;
+  border-right: 1px solid var(--line);
+}
+.stat:last-child { border-right: 0; }
+.stat b {
+  display: block;
+  font-family: "FiraSub", ui-monospace, monospace;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
+}
+.stat span {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--faint);
+  font-family: "FiraSub", ui-monospace, monospace;
+}
+
+/* ── section furniture ─────────────────────────────────────────────────── */
+.section { padding: clamp(48px, 7vw, 88px) 0 0; }
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 34px;
+}
+.section-head h2 {
+  font-family: "FiraSub", ui-monospace, monospace;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin: 0;
+  color: var(--accent);
+}
+.section-head .rule { flex: 1; height: 1px; background: var(--line); }
+.section-head .count {
+  font-family: "FiraSub", ui-monospace, monospace;
+  font-size: 12px;
+  color: var(--faint);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── featured entries ──────────────────────────────────────────────────── */
+.entry {
+  display: grid;
+  grid-template-columns: 210px 1fr;
+  gap: 40px;
+  padding: 34px 0;
+  border-top: 1px solid var(--line);
+}
+.entry:last-child { border-bottom: 1px solid var(--line); }
+
+.entry-meta {
+  font-family: "FiraSub", ui-monospace, monospace;
+  font-size: 12.5px;
+  color: var(--faint);
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-self: start;
+}
+.entry-meta .kind {
+  color: var(--accent);
+  letter-spacing: 0.16em;
+}
+.entry-meta .row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  border-bottom: 1px dotted var(--line-hi);
+  padding-bottom: 7px;
+}
+.entry-meta .row span:last-child { color: var(--muted); text-align: right; }
+
+.entry-body h3 {
+  font-family: "FiraSub", ui-monospace, monospace;
+  font-weight: 500;
+  font-size: clamp(23px, 3vw, 31px);
+  letter-spacing: -0.035em;
+  margin: 0 0 14px;
+  line-height: 1.12;
+}
+.entry-body h3 a { text-decoration: none; }
+.entry-body h3 a:hover { color: var(--accent); }
+
+.entry-body p {
+  margin: 0 0 18px;
+  max-width: 66ch;
+  color: var(--muted);
+}
+.entry-body p.lead { color: var(--ink); }
+
+.notes {
+  list-style: none;
+  margin: 0 0 22px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  max-width: 68ch;
+}
+.notes li {
+  position: relative;
+  padding-left: 22px;
+  font-size: 15px;
+  color: var(--muted);
+}
+.notes li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--accent);
+  font-family: "FiraSub", ui-monospace, monospace;
+  font-size: 12px;
+}
+.notes code {
+  font-family: "FiraSub", ui-monospace, monospace;
+  font-size: 0.9em;
+  background: var(--raised);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  padding: 1px 5px;
+  color: var(--ink);
+}
+
+.links { display: flex; flex-wrap: wrap; gap: 10px; }
+
+.btn {
+  font-family: "FiraSub", ui-monospace, monospace;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 9px 16px;
+  border: 1px solid var(--line-hi);
+  color: var(--ink);
+  background: transparent;
+  cursor: pointer;
+  transition: border-color 120ms ease, color 120ms ease, background 120ms ease;
+}
+.btn:hover { border-color: var(--ink); }
+.btn.run {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--run-ink);
+  font-weight: 500;
+}
+.btn.run:hover { filter: brightness(1.1); }
+
+/* ── index ─────────────────────────────────────────────────────────────── */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.filters { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  font-family: "FiraSub", ui-monospace, monospace;
+  font-size: 11.5px;
+  letter-spacing: 0.13em;
+  padding: 7px 13px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.chip:hover { color: var(--ink); border-color: var(--line-hi); }
+.chip[aria-pressed="true"] {
+  background: var(--accent-q);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.search {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  border: 1px solid var(--line);
+  padding: 0 12px;
+  background: var(--panel);
+  min-width: 288px;
+}
+.search span {
+  font-family: "FiraSub", ui-monospace, monospace;
+  color: var(--accent);
+  font-size: 13px;
+}
+.search input {
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font-family: "FiraSub", ui-monospace, monospace;
+  font-size: 13px;
+  padding: 9px 0;
+  width: 100%;
+  outline: none;
+}
+.search input::placeholder { color: var(--faint); }
+
+.table-scroll { overflow-x: auto; border-top: 1px solid var(--line-hi); }
+
+table.index {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  min-width: 720px;
+}
+table.index th {
+  font-family: "FiraSub", ui-monospace, monospace;
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--faint);
+  text-align: left;
+  padding: 11px 14px 11px 0;
+  border-bottom: 1px solid var(--line);
+  white-space: nowrap;
+}
+table.index td {
+  padding: 13px 14px 13px 0;
+  border-bottom: 1px solid var(--line);
+  vertical-align: baseline;
+  color: var(--muted);
+}
+table.index tr[data-row] { cursor: pointer; }
+table.index tr[data-row]:hover td { background: var(--raised); }
+table.index tr.on td {
+  background: var(--accent-q);
+  box-shadow: inset 3px 0 0 var(--accent);
+}
+td.name {
+  font-family: "FiraSub", ui-monospace, monospace;
+  font-weight: 500;
+  color: var(--ink);
+  white-space: nowrap;
+  padding-left: 14px;
+  font-size: 13.5px;
+}
+tr.on td.name { color: var(--accent); }
+td.what { min-width: 300px; color: var(--muted); }
+td.kind, td.lang, td.year {
+  font-family: "FiraSub", ui-monospace, monospace;
+  font-size: 11.5px;
+  letter-spacing: 0.08em;
+  color: var(--faint);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+td.go { text-align: right; white-space: nowrap; padding-right: 4px; }
+.tag-run, .tag-none {
+  font-family: "FiraSub", ui-monospace, monospace;
+  font-size: 10.5px;
+  letter-spacing: 0.14em;
+  padding: 4px 9px;
+  text-decoration: none;
+  display: inline-block;
+}
+.tag-run {
+  background: var(--accent);
+  color: var(--run-ink);
+  font-weight: 500;
+}
+.tag-run:hover { filter: brightness(1.12); }
+.tag-none { color: var(--faint); letter-spacing: 0.14em; }
+
+.empty {
+  padding: 34px 0;
+  color: var(--faint);
+  font-family: "FiraSub", ui-monospace, monospace;
+  font-size: 13px;
+}
+
+/* ── colophon ──────────────────────────────────────────────────────────── */
+.cols {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
+  gap: 28px;
+  border-top: 1px solid var(--line);
+  padding-top: 28px;
+}
+.col h4 {
+  font-family: "FiraSub", ui-monospace, monospace;
+  font-size: 11.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--faint);
+  margin: 0 0 11px;
+  font-weight: 400;
+}
+.col p { margin: 0; font-size: 14.5px; color: var(--muted); }
+.col a { color: var(--ink); text-decoration-color: var(--line-hi); }
+.col a:hover { color: var(--accent); }
+
+footer {
+  margin-top: clamp(48px, 7vw, 84px);
+  border-top: 1px solid var(--line);
+  padding: 26px 0 8px;
+  font-family: "FiraSub", ui-monospace, monospace;
+  font-size: 12px;
+  color: var(--faint);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: space-between;
+}
+footer a { color: var(--muted); text-decoration: none; }
+footer a:hover { color: var(--accent); }
+
+/* ── hint bar ──────────────────────────────────────────────────────────────
+   The device DeckTok puts on screen, doing the same job here. */
+.hintbar {
+  position: fixed;
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 9px 17px;
+  background: var(--panel);
+  border: 1px solid var(--line-hi);
+  border-radius: 999px;
+  box-shadow: 0 10px 34px rgba(0,0,0,0.34);
+  z-index: 50;
+  max-width: calc(100vw - 32px);
+  overflow: hidden;
+  transition: opacity 240ms ease, transform 240ms ease;
+}
+/* Same manners as DeckTok's own hint bar: present when it is useful, out of
+   the way when it is not, back the moment you touch a key. */
+.hintbar.idle {
+  opacity: 0;
+  transform: translateX(-50%) translateY(10px);
+  pointer-events: none;
+}
+.hint { display: flex; align-items: center; gap: 7px; flex: none; }
+.key {
+  font-family: "FiraSub", ui-monospace, monospace;
+  font-size: 10.5px;
+  font-weight: 500;
+  min-width: 21px;
+  height: 21px;
+  padding: 0 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: var(--raised);
+  border: 1px solid var(--line-hi);
+  color: var(--ink);
+}
+.hint span:last-child {
+  font-family: "FiraSub", ui-monospace, monospace;
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+.hintbar button.hint {
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  font: inherit;
+}
+@media (max-width: 720px) {
+  .hint.opt { display: none; }
+}
+
+/* ── responsive ────────────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  /* Stats wrap to two columns — don't leave a rule hanging off the right. */
+  .stat { flex: 1 1 40%; }
+  .stat:nth-child(2n) { border-right: 0; }
+}
+@media (max-width: 820px) {
+  .entry { grid-template-columns: 1fr; gap: 18px; }
+  .entry-meta { flex-direction: row; flex-wrap: wrap; gap: 14px; }
+  .entry-meta .row { border: 0; padding: 0; gap: 6px; }
+  .search { margin-left: 0; width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}
+</style>
+
+<a class="skip" href="#work">Skip to work</a>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="eyebrow">Index of work &nbsp;·&nbsp; 2026</div>
+    <h1 class="wordmark">chemix444<span class="caret">_</span></h1>
+    <p class="tagline">I build things for the Steam Deck, and games that run in a browser tab.</p>
+    <p class="standfirst">
+      Most of it started as something I wanted to exist and couldn't find: a TikTok client
+      that takes a controller, Android running properly on SteamOS, a 3D shooter that fits
+      in one HTML file. I like that constraint — <strong>no build step, no dependencies,
+      clone it and run it</strong>. This page is the same: one file, nothing fetched.
+    </p>
+    <div class="stats">
+      <div class="stat"><b>27</b><span>Repositories</span></div>
+      <div class="stat"><b>15</b><span>Run in a browser</span></div>
+      <div class="stat"><b>9</b><span>Games</span></div>
+      <div class="stat"><b>4</b><span>Languages</span></div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section" id="work">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Selected work</h2>
+        <div class="rule"></div>
+        <div class="count">06 of 27</div>
+      </div>
+
+      <article class="entry">
+        <div class="entry-meta mono">
+          <div class="kind">DECK</div>
+          <div class="row"><span>Year</span><span>2026</span></div>
+          <div class="row"><span>Stack</span><span>Electron · JS</span></div>
+          <div class="row"><span>Runs on</span><span>SteamOS · Bazzite</span></div>
+        </div>
+        <div class="entry-body">
+          <h3><a href="https://github.com/chemix444/DeckTok">DeckTok</a></h3>
+          <p class="lead">
+            TikTok's real web client, hosted in a frameless Electron window and wrapped in a
+            shell built for a gamepad. It drives the actual site rather than reimplementing
+            it against a private API — so login, comments, DMs, LIVE and uploads all work,
+            and keep working.
+          </p>
+          <ul class="notes">
+            <li>Synthetic input is injected at Chromium's own input pipeline, so the page
+              receives events with <code>isTrusted</code> set. The virtual pointer and
+              on-screen keyboard work on a React app that never knows the shell is there.</li>
+            <li>The overlay lives in a <em>closed</em> shadow root attached to
+              <code>&lt;html&gt;</code>, outside the element React owns, so it can't be
+              reconciled away and the page can't inspect it.</li>
+            <li>Steam preloads its overlay library into everything it launches; inside
+              Chromium that lands in the zygote and breaks every renderer, which hangs
+              Gaming Mode on an uncancellable spinner. The launcher strips that one entry
+              from <code>LD_PRELOAD</code>.</li>
+            <li>The hint bar docks to any edge of the screen, taskbar-style — the same
+              device sitting along the bottom of this page.</li>
+          </ul>
+          <div class="links">
+            <a class="btn" href="https://github.com/chemix444/DeckTok">Source</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-meta mono">
+          <div class="kind">GAME</div>
+          <div class="row"><span>Year</span><span>2026</span></div>
+          <div class="row"><span>Stack</span><span>Three.js · WebGL</span></div>
+          <div class="row"><span>Size</span><span>One HTML file</span></div>
+        </div>
+        <div class="entry-body">
+          <h3><a href="https://github.com/chemix444/blockfall">blockfall</a></h3>
+          <p class="lead">
+            A wave-based 3D arena shooter that is a single HTML file. Eleven biomes, nine
+            weapons, upgrades chosen on level-up, and a boss every ten waves.
+          </p>
+          <ul class="notes">
+            <li>Bosses run multi-phase: phase two at 50% health, desperate at 20%.</li>
+            <li>Weapons span ball, scatter gun, orbit blades, chain bolt, boomerang, frost
+              nova, seeker missiles, pulse and railgun.</li>
+            <li>Sandbox mode exposes a Gmod-style spawn menu and every game parameter.</li>
+            <li>Wave and endless modes, permanent class mastery between runs.</li>
+          </ul>
+          <div class="links">
+            <a class="btn run" href="https://chemix444.github.io/blockfall/">Play it</a>
+            <a class="btn" href="https://github.com/chemix444/blockfall">Source</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-meta mono">
+          <div class="kind">APP</div>
+          <div class="row"><span>Year</span><span>2026</span></div>
+          <div class="row"><span>Stack</span><span>Electron · JS</span></div>
+          <div class="row"><span>Target</span><span>macOS universal</span></div>
+        </div>
+        <div class="entry-body">
+          <h3><a href="https://github.com/chemix444/xcloudwrapper">xcloudwrapper</a></h3>
+          <p class="lead">
+            Xbox Cloud Gaming as a real macOS application. Electron is the host and the
+            plumbing here, not a reskin: no custom chrome around the player, no telemetry,
+            no third-party pings.
+          </p>
+          <ul class="notes">
+            <li>One electron-builder target produces a universal binary for Apple Silicon
+              and Intel.</li>
+            <li>Hardened runtime with explicit entitlements, and a smoke test in the repo.</li>
+            <li>URL routing is separated out and unit-tested, so the window can tell a
+              sign-in redirect from a navigation away.</li>
+          </ul>
+          <div class="links">
+            <a class="btn" href="https://github.com/chemix444/xcloudwrapper">Source</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-meta mono">
+          <div class="kind">DECK</div>
+          <div class="row"><span>Year</span><span>2026</span></div>
+          <div class="row"><span>Stack</span><span>Shell</span></div>
+          <div class="row"><span>Target</span><span>SteamOS</span></div>
+        </div>
+        <div class="entry-body">
+          <h3><a href="https://github.com/chemix444/steamdeck-waydroid-setup">steamdeck-waydroid-setup</a></h3>
+          <p class="lead">
+            The whole path to a working Waydroid install — Android 13 — on a Steam Deck,
+            written down because getting there once meant solving six unrelated problems in
+            a row.
+          </p>
+          <ul class="notes">
+            <li>Building from the AUR against an immutable, read-only root.</li>
+            <li>GAPPS images, libndk ARM translation, and Widevine so DRM video plays.</li>
+            <li>The firewall fix and the Play certification step most guides skip, which is
+              why most guides end with apps that refuse to launch.</li>
+          </ul>
+          <div class="links">
+            <a class="btn" href="https://github.com/chemix444/steamdeck-waydroid-setup">Source</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-meta mono">
+          <div class="kind">GAME</div>
+          <div class="row"><span>Year</span><span>2026</span></div>
+          <div class="row"><span>Stack</span><span>Three.js · cannon-es</span></div>
+          <div class="row"><span>Objects</span><span>40+</span></div>
+        </div>
+        <div class="entry-body">
+          <h3><a href="https://github.com/chemix444/sandbox3d">sandbox3d</a></h3>
+          <p class="lead">
+            A physics sandbox in the browser. Spawn from a catalogue of forty-odd shapes —
+            boxes, stairs, wedges, pipes, springs, spirals — grab them, stack them, and let
+            the solver take it from there.
+          </p>
+          <ul class="notes">
+            <li>Real-time gravity, collision, stacking and friction through cannon-es.</li>
+            <li>Four tool modes — spawn, grab, delete, clear — and a full colour picker.</li>
+            <li>Served straight off GitHub Pages with nothing to install.</li>
+          </ul>
+          <div class="links">
+            <a class="btn run" href="https://chemix444.github.io/sandbox3d/">Play it</a>
+            <a class="btn" href="https://github.com/chemix444/sandbox3d">Source</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-meta mono">
+          <div class="kind">SCRIPT</div>
+          <div class="row"><span>Year</span><span>2026</span></div>
+          <div class="row"><span>Stack</span><span>Userscript</span></div>
+          <div class="row"><span>Target</span><span>neal.fun</span></div>
+        </div>
+        <div class="entry-body">
+          <h3><a href="https://github.com/chemix444/passwordgameautoplay">passwordgameautoplay</a></h3>
+          <p class="lead">
+            A Tampermonkey script that plays neal.fun's The Password Game by itself, from
+            rule 1 through the win screen — on a live instance where the CAPTCHA, country,
+            chess puzzle, colour, video length, Wordle answer and moon phase are different
+            every run.
+          </p>
+          <ul class="notes">
+            <li>An exercise in DOM automation against a reactive rich-text editor, which is
+              the genuinely hard part.</li>
+            <li>Ships with a mock game and a test runner, so it can be checked without
+              hammering the real site.</li>
+          </ul>
+          <div class="links">
+            <a class="btn" href="https://github.com/chemix444/passwordgameautoplay">Source</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="index">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Everything else</h2>
+        <div class="rule"></div>
+        <div class="count" id="shown">27 shown</div>
+      </div>
+
+      <div class="controls">
+        <div class="filters" id="filters" role="group" aria-label="Filter by kind"></div>
+        <label class="search">
+          <span class="mono" aria-hidden="true">/</span>
+          <input id="q" type="search" placeholder="filter by name"
+                 aria-label="Search repositories" autocomplete="off">
+        </label>
+      </div>
+
+      <div class="table-scroll">
+        <table class="index">
+          <thead>
+            <tr>
+              <th style="padding-left:14px">Repository</th>
+              <th>What it is</th>
+              <th>Kind</th>
+              <th>Lang</th>
+              <th>Year</th>
+              <th style="text-align:right">Open</th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+      <div class="empty" id="empty" hidden>No repository matches that.</div>
+    </div>
+  </section>
+
+  <section class="section" id="colophon">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Colophon</h2>
+        <div class="rule"></div>
+      </div>
+      <div class="cols">
+        <div class="col">
+          <h4>This page</h4>
+          <p>One HTML file. No framework, no build step, no requests to anywhere —
+            the typeface is embedded, the data is inline. It is hosted on GitHub Pages
+            like most of the things it lists.</p>
+        </div>
+        <div class="col">
+          <h4>Type</h4>
+          <p>Fira Code, subset to the glyphs this page actually uses and embedded as
+            WOFF. Released by Mozilla under the SIL Open Font License.</p>
+        </div>
+        <div class="col">
+          <h4>Controls</h4>
+          <p>The index is keyboard-driven: <b>↑↓</b> to move, <b>↵</b> to open the
+            repository, <b>R</b> to run it, <b>/</b> to search, <b>T</b> for the theme.
+            Everything is clickable too.</p>
+        </div>
+        <div class="col">
+          <h4>Elsewhere</h4>
+          <p><a href="https://github.com/chemix444">github.com/chemix444</a><br>
+            Steam Deck tools, browser games, and the occasional userscript.</p>
+        </div>
+      </div>
+      <footer>
+        <span>chemix444 — index of work, 2026</span>
+        <span><a href="https://github.com/chemix444">github.com/chemix444</a></span>
+      </footer>
+    </div>
+  </section>
+</main>
+
+<nav class="hintbar" aria-label="Keyboard shortcuts">
+  <span class="hint"><span class="key">↑↓</span><span>Move</span></span>
+  <span class="hint"><span class="key">↵</span><span>Open</span></span>
+  <span class="hint opt"><span class="key">R</span><span>Run</span></span>
+  <span class="hint opt"><span class="key">/</span><span>Search</span></span>
+  <button class="hint" id="themeBtn" type="button" aria-label="Toggle colour theme">
+    <span class="key">T</span><span id="themeLabel">Theme</span>
+  </button>
+</nav>
+
+<script>
+(function () {
+  "use strict";
+
+  var GH = "https://github.com/chemix444/";
+  var PAGES = "https://chemix444.github.io/";
+
+  // [name, kind, language, year, hasLiveBuild, description]
+  var REPOS = [
+    ["DeckTok", "DECK", "JavaScript", 2026, 0, "Controller-first TikTok client for the Steam Deck — TikTok's web client in a gamepad-driven Electron shell."],
+    ["steamdeck-waydroid-setup", "DECK", "Shell", 2026, 0, "Reproducing a working Waydroid (Android 13) install on SteamOS: AUR build, GAPPS, ARM translation, Widevine, Play certification."],
+    ["python-autoclicker", "DECK", "Python", 2026, 0, "Lightweight autoclicker with a GUI — configurable interval, toggle hotkey, left/right click. Built for Linux and SteamOS."],
+    ["xcloudwrapper", "APP", "JavaScript", 2026, 0, "Xbox Cloud Gaming as a native macOS app. Hardened Electron window, no telemetry, universal binary."],
+    ["izzytok", "APP", "Python", 2026, 1, "A custom TikTok frontend that shows one creator and nothing else."],
+    ["TIMECLOCK", "APP", "HTML", 2026, 1, "Minimal browser time clock for tracking hours and calculating pay at a fixed rate."],
+    ["discord-bot", "APP", "Python", 2026, 0, "Greed-inspired open source all-purpose Discord bot."],
+    ["discord-username-scraper", "APP", "Python", 2026, 0, "Username generator and availability checker against Discord's public API."],
+    ["whatever", "APP", "Python", 2026, 0, "A tiny terminal typing-speed test. Nothing beyond the Python standard library."],
+    ["blockfall", "GAME", "HTML", 2026, 1, "Single-file 3D wave shooter in Three.js — 11 biomes, 9 weapons, multi-phase bosses, sandbox mode."],
+    ["sandbox3d", "GAME", "HTML", 2026, 1, "Physics sandbox with 40+ spawnable objects, built on Three.js and cannon-es."],
+    ["sandbox", "GAME", "HTML", 2026, 1, "A Three.js sandbox game in the spirit of Garry's Mod."],
+    ["hyphae-game", "GAME", "JavaScript", 2026, 1, "A dark, fungal idle game — grow a mycelium network across an abandoned city."],
+    ["sam-is-online", "GAME", "JavaScript", 2026, 1, "A short narrative chat game in the spirit of Emily Is Away. Plain HTML, CSS and JS."],
+    ["ballbattles", "GAME", "HTML", 2026, 1, "Two ball 'battlers' fight in a zero-gravity arena. 9:16 layout, ability registry, synth sound."],
+    ["hydro", "GAME", "HTML", 2026, 1, "Browser gaming site with 500+ instant-play games — no downloads, no sign-ups."],
+    ["everyfile.sys", "GAME", "HTML", 2026, 1, "Recreation of PortalRunner's “flash drive with literally every file” video, in HTML."],
+    ["random-archive", "GAME", "HTML", 2026, 1, "Press the button, get a random thing out of archive.org."],
+    ["passwordgameautoplay", "SCRIPT", "JavaScript", 2026, 0, "Userscript that plays neal.fun's The Password Game by itself, rule 1 to the win screen."],
+    ["cookieclickerautoplay", "SCRIPT", "JavaScript", 2026, 0, "Cookie Clicker autopilot that only does what a human could, aiming at 100% achievements."],
+    ["aura", "SITE", "HTML", 2026, 1, "One-page site for Aura Club and Conventions, a nightlife venue in Naperville, Illinois."],
+    ["site", "SITE", "HTML", 2026, 1, "One-page site for Mall of India, Naperville, Illinois."],
+    ["site2", "SITE", "HTML", 2026, 1, "The Mall of India site with its images bundled in the repository."],
+    ["fnbots", "SITE", "HTML", 2026, 1, "Static one-page list of 30 Fortnite bot account names."],
+    ["neetcode-submissions", "MISC", "Python", 2026, 0, "My NeetCode.io problem submissions."],
+    ["cdn", "MISC", "—", 2026, 0, "Image and GIF assets used by my other sites."],
+    ["moicdn", "MISC", "—", 2026, 0, "Image assets for the Mall of India site."]
+  ];
+
+  var KINDS = ["ALL", "DECK", "APP", "GAME", "SCRIPT", "SITE", "MISC"];
+
+  var rowsEl = document.getElementById("rows");
+  var filtersEl = document.getElementById("filters");
+  var shownEl = document.getElementById("shown");
+  var emptyEl = document.getElementById("empty");
+  var qEl = document.getElementById("q");
+
+  var kind = "ALL";
+  var query = "";
+  var cursor = -1;
+  var visible = [];
+
+  KINDS.forEach(function (k) {
+    var b = document.createElement("button");
+    b.className = "chip";
+    b.type = "button";
+    b.textContent = k;
+    b.setAttribute("aria-pressed", k === kind ? "true" : "false");
+    b.addEventListener("click", function () {
+      kind = k;
+      cursor = -1;
+      Array.prototype.forEach.call(filtersEl.children, function (c) {
+        c.setAttribute("aria-pressed", c.textContent === k ? "true" : "false");
+      });
+      render();
+    });
+    filtersEl.appendChild(b);
+  });
+
+  function matches(r) {
+    if (kind !== "ALL" && r[1] !== kind) return false;
+    if (!query) return true;
+    return (r[0] + " " + r[5] + " " + r[2]).toLowerCase().indexOf(query) > -1;
+  }
+
+  function render() {
+    visible = REPOS.filter(matches);
+    rowsEl.textContent = "";
+
+    visible.forEach(function (r, i) {
+      var tr = document.createElement("tr");
+      tr.setAttribute("data-row", String(i));
+      if (i === cursor) tr.className = "on";
+
+      var name = document.createElement("td");
+      name.className = "name";
+      name.textContent = r[0];
+
+      var what = document.createElement("td");
+      what.className = "what";
+      what.textContent = r[5];
+
+      var kindTd = document.createElement("td");
+      kindTd.className = "kind";
+      kindTd.textContent = r[1];
+
+      var lang = document.createElement("td");
+      lang.className = "lang";
+      lang.textContent = r[2];
+
+      var year = document.createElement("td");
+      year.className = "year";
+      year.textContent = String(r[3]);
+
+      var go = document.createElement("td");
+      go.className = "go";
+      if (r[4]) {
+        var a = document.createElement("a");
+        a.className = "tag-run";
+        a.href = PAGES + r[0] + "/";
+        a.textContent = "RUN";
+        a.addEventListener("click", function (e) { e.stopPropagation(); });
+        go.appendChild(a);
+      } else {
+        var s = document.createElement("span");
+        s.className = "tag-none";
+        s.textContent = "SOURCE";
+        go.appendChild(s);
+      }
+
+      tr.appendChild(name);
+      tr.appendChild(what);
+      tr.appendChild(kindTd);
+      tr.appendChild(lang);
+      tr.appendChild(year);
+      tr.appendChild(go);
+
+      tr.addEventListener("click", function () {
+        cursor = i;
+        paint();
+        window.open(GH + r[0], "_blank", "noopener");
+      });
+
+      rowsEl.appendChild(tr);
+    });
+
+    shownEl.textContent = visible.length + " shown";
+    emptyEl.hidden = visible.length > 0;
+  }
+
+  function paint() {
+    Array.prototype.forEach.call(rowsEl.children, function (tr, i) {
+      tr.className = i === cursor ? "on" : "";
+    });
+    if (cursor > -1 && rowsEl.children[cursor]) {
+      rowsEl.children[cursor].scrollIntoView({ block: "nearest" });
+    }
+  }
+
+  function move(d) {
+    if (!visible.length) return;
+    cursor = cursor < 0 ? (d > 0 ? 0 : visible.length - 1)
+                        : (cursor + d + visible.length) % visible.length;
+    paint();
+  }
+
+  qEl.addEventListener("input", function () {
+    query = qEl.value.trim().toLowerCase();
+    cursor = -1;
+    render();
+  });
+
+  // ── hint bar ─────────────────────────────────────────────────────────
+  // It sits over the page, so it earns its place the way DeckTok's does:
+  // shown on arrival, faded once you are reading, back on the next keypress.
+  var bar = document.querySelector(".hintbar");
+  var idle;
+  function nudgeBar() {
+    bar.classList.remove("idle");
+    clearTimeout(idle);
+    idle = setTimeout(function () {
+      if (cursor < 0) bar.classList.add("idle");
+    }, 4200);
+  }
+  bar.addEventListener("mouseenter", nudgeBar);
+  bar.addEventListener("focusin", nudgeBar);
+  document.addEventListener("mousemove", function (e) {
+    if (e.clientY > window.innerHeight - 130) nudgeBar();
+  }, { passive: true });
+
+  // ── theme ────────────────────────────────────────────────────────────
+  var root = document.documentElement;
+  function systemDark() {
+    return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+  }
+  function toggleTheme() {
+    var now = root.getAttribute("data-theme");
+    var dark = now ? now === "dark" : systemDark();
+    root.setAttribute("data-theme", dark ? "light" : "dark");
+  }
+  document.getElementById("themeBtn").addEventListener("click", toggleTheme);
+
+  // ── keys ─────────────────────────────────────────────────────────────
+  document.addEventListener("keydown", function (e) {
+    var typing = e.target === qEl;
+    nudgeBar();
+
+    if (e.key === "/" && !typing) { e.preventDefault(); qEl.focus(); qEl.select(); return; }
+    if (e.key === "Escape") {
+      if (typing) { qEl.value = ""; query = ""; render(); qEl.blur(); }
+      else { cursor = -1; paint(); }
+      return;
+    }
+    if (typing && e.key !== "ArrowDown" && e.key !== "ArrowUp" && e.key !== "Enter") return;
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+
+    if (e.key === "ArrowDown") { e.preventDefault(); move(1); }
+    else if (e.key === "ArrowUp") { e.preventDefault(); move(-1); }
+    else if (e.key === "Enter" && cursor > -1) {
+      e.preventDefault();
+      window.open(GH + visible[cursor][0], "_blank", "noopener");
+    }
+    else if ((e.key === "r" || e.key === "R") && !typing && cursor > -1 && visible[cursor][4]) {
+      e.preventDefault();
+      window.open(PAGES + visible[cursor][0] + "/", "_blank", "noopener");
+    }
+    else if ((e.key === "t" || e.key === "T") && !typing) { e.preventDefault(); toggleTheme(); }
+  });
+
+  render();
+  nudgeBar();
+}());
+</script>
+
+</body>
+</html>
